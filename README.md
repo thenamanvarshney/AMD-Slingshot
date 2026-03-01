@@ -23,7 +23,7 @@ Install backend dependencies: ```bash
 pip install fastapi uvicorn google-generativeai pydantic python-multipart
 
 
-##🔑 Add your API Key: * Get a free API key from Google AI Studio.
+## 🔑 Add your API Key: * Get a free API key from Google AI Studio.
 
 Open the server.py file.
 Find the line that says os.environ["GEMINI_API_KEY"] = "YOUR_GEMINI_API_KEY".
